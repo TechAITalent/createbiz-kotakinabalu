@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/css/main.29e6995b.css",
+    "main.js": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/js/main.04795612.js",
+    "static/media/carousel_photography-services.jpeg": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/media/carousel_photography-services.41c2c5a0ab192085c5f3.jpeg",
+    "static/media/carousel_surface-sanitizer.jpeg": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/media/carousel_surface-sanitizer.552fa80e894915a4901b.jpeg",
+    "static/media/carousel_unique-sneaker.jpeg": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/media/carousel_unique-sneaker.1c269c681ccf0230b9c7.jpeg",
+    "static/media/createBiz-Logo.png": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/media/createBiz-Logo.0cac46a60b6af00cd386.png",
+    "index.html": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/index.html",
+    "main.29e6995b.css.map": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/css/main.29e6995b.css.map",
+    "main.04795612.js.map": "https://limebunnydev.github.io/createbiz-kotakinabalu-ecommerce/static/js/main.04795612.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29e6995b.css",
+    "static/js/main.04795612.js"
+  ]
+}
