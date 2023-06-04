@@ -44,7 +44,7 @@ function Footer() {
           </Typography>
           <Typography mb="30px">Careers</Typography>
           <Typography mb="30px">Our Stores</Typography>
-          <Typography mb="30px" onClick={() => navigate("/termsConditions")} sx={{ "&:hover": { cursor: "pointer" } }}>Terms & Conditions</Typography>
+          <Typography mb="30px">Terms & Conditions</Typography>
           <Typography mb="30px">Privacy Policy</Typography>
         </Box>
 
@@ -74,3 +74,5 @@ function Footer() {
 }
 
 export default Footer;
+
+// onClick={() => navigate("/termsConditions")} sx={{ "&:hover": { cursor: "pointer" } }}
