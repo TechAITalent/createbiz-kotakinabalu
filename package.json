@@ -2,8 +2,7 @@
   "name": "react-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "_homepage": "https://techaitalent.github.io/createbiz-kotakinabalu/",
-  "homepage": "https://createbiz.my/kotakinabalu/",
+  "_homepage": "https://createbiz.my/kotakinabalu/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

@@ -15,8 +15,9 @@ import {
 import { toast } from "react-toastify";
 
 let itemsRef = collection(firestore, "items");
-let userRef = collection(firestore, "users");
-let likeRef = collection(firestore, "likes");
+let itemDetailsRef = collection(firestore, "itemDetails");
+
+let likeRef = collection(firestore, "likes");users
 let commentsRef = collection(firestore, "comments");
 let connectionRef = collection(firestore, "connections");
 
@@ -41,9 +42,9 @@ export const getStatus = (setAllStatus) => {
   });
 };
 
-export const getAllUsers = (setAllUsers) => {
-  onSnapshot(userRef, (response) => {
-    setAllUsers(
+export const getItemDetails = (setItemDetails) => {
+  onSnapshot(itemDetailsRef, (response) => {
+    setItemDetails(
       response.docs.map((docs) => {
         return { ...docs.data(), id: docs.id };
       })

@@ -6,6 +6,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../theme";
 import { addToCart } from "../state";
 import { useNavigate } from "react-router-dom";
+import { getItemDetails } from "../api/FirestoreAPI";
 
 const Item = ({ item, width }) => {
   const navigate = useNavigate();
@@ -34,7 +35,8 @@ const Item = ({ item, width }) => {
           alt={item.name}
           width="300px"
           height="400px"
-          src={`http://localhost:1337${url}`}
+          //src={`http://localhost:1337${url}`}
+          src={getItemDetails}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
         />
