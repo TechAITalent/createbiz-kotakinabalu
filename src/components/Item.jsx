@@ -6,7 +6,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../theme";
 import { addToCart } from "../state";
 import { useNavigate } from "react-router-dom";
-import { getItemDetails } from "../api/FirestoreAPI";
+//import data from "../assets/itemData.json";
 
 const Item = ({ item, width }) => {
   const navigate = useNavigate();
@@ -17,12 +17,15 @@ const Item = ({ item, width }) => {
     palette: { neutral },
   } = useTheme();
 
-  const { category, price, name, image } = item.attributes;
-  const {
-    data: {
-      attributes: { url },
-    },
-  } = image;
+  /*item.attributes = {
+    id: data.id,
+    name: data.name,
+    category: data.category,
+    price: data.price,
+    image: data.image,
+  }*/
+  console.log("hello world");
+  //const { category, price, name, image } = item.attributes;
 
   return (
     <Box width={width}>
@@ -35,8 +38,7 @@ const Item = ({ item, width }) => {
           alt={item.name}
           width="300px"
           height="400px"
-          //src={`http://localhost:1337${url}`}
-          src={getItemDetails}
+          src={item.image}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
         />
@@ -77,12 +79,12 @@ const Item = ({ item, width }) => {
 
       <Box mt="3px">
         <Typography variant="subtitle2" color={neutral.dark}>
-          {category}
-            {/*}.replace(/([A-Z])/g, " $1")
+          {item.category}
+          {/*}.replace(/([A-Z])/g, " $1")
             .replace(/^./, (str) => str.toUpperCase())*/}
         </Typography>
-        <Typography>{name}</Typography>
-        <Typography fontWeight="bold">${price}</Typography>
+        <Typography>{item.name}</Typography>
+        <Typography fontWeight="bold">RM{item.price}</Typography>
       </Box>
     </Box>
   );

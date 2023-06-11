@@ -10,6 +10,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../../theme";
 import { addToCart } from "../../state";
 import { useDispatch } from "react-redux";
+import data from "../../assets/itemData.json";
 
 const ItemDetails = () => {
   const dispatch = useDispatch();
@@ -25,7 +26,8 @@ const ItemDetails = () => {
 
   async function getItem() {
     const item = await fetch(
-      `http://localhost:1337/api/items/${itemId}?populate=image`,
+      //`http://localhost:1337/api/items/${itemId}?populate=image`,
+      data.image,
       {
         method: "GET",
       }
