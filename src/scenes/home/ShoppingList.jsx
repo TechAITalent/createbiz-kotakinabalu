@@ -7,6 +7,7 @@ import { Typography } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useDispatch, useSelector } from "react-redux";
 import { setItems } from "../../state";
+import itemData from "../../assets/itemData.json";
 
 const ShoppingList = () => {
   const dispatch = useDispatch();
@@ -19,12 +20,14 @@ const ShoppingList = () => {
   };
 
   async function getItems() {
-    const items = await fetch(
+    /*const items = await fetch(
       "http://localhost:1337/api/items?populate=image",
       { method: "GET" }
     );
-    const itemsJson = await items.json();
-    dispatch(setItems(itemsJson.data));
+    //const itemsJson = await items.json();*/
+    const itemsJson = await itemData;
+    console.log(itemsJson);
+    dispatch(setItems(itemsJson));
   }
 
   useEffect(() => {
@@ -32,13 +35,13 @@ const ShoppingList = () => {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const topRatedItems = items.filter(
-    (item) => item.attributes.category === "topRated"
+    (item) => item.category === "topRated"
   );
   const newArrivalsItems = items.filter(
-    (item) => item.attributes.category === "newArrivals"
+    (item) => item.category === "newArrivals"
   );
   const bestSellersItems = items.filter(
-    (item) => item.attributes.category === "bestSellers"
+    (item) => item.category === "bestSellers"
   );
 
   return (
@@ -68,10 +71,10 @@ const ShoppingList = () => {
       <Box
         margin="0 auto"
         display="grid"
-        gridTemplateColumns="repeat(auto-fill, 300px)"
+        gridTemplateColumns="repeat(auto-fill, 280px)"
         justifyContent="space-around"
         rowGap="20px"
-        columnGap="1.33%"
+        columnGap="1.25%"
       >
         {value === "all" &&
           items.map((item) => (

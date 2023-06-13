@@ -2,7 +2,7 @@
   "name": "react-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "_homepage": "https://createbiz.my/kotakinabalu/",
+  "homepage": "https://createbiz.my/kotakinabalu/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -15,7 +15,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "dotenv": "^16.0.3",
-    "firebase": "^9.22.1",
     "formik": "^2.4.0",
     "pure-react-carousel": "^1.29.0",
     "react": "^18.2.0",

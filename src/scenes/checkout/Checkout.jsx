@@ -8,9 +8,9 @@ import Payment from "./Payment";
 import Shipping from "./Shipping";
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe(
+/*const stripePromise = loadStripe(
   "pk_test_51LgU7yConHioZHhlAcZdfDAnV9643a7N1CMpxlKtzI1AUWLsRyrord79GYzZQ6m8RzVnVQaHsgbvN1qSpiDegoPi006QkO0Mlc"
-);
+);*/
 
 const Checkout = () => {
   const [activeStep, setActiveStep] = useState(0);
@@ -18,7 +18,7 @@ const Checkout = () => {
   const isFirstStep = activeStep === 0;
   const isSecondStep = activeStep === 1;
 
-  const handleFormSubmit = async (values, actions) => {
+ /*const handleFormSubmit = async (values, actions) => {
     setActiveStep(activeStep + 1);
 
     // this copies the billing address onto shipping address
@@ -56,7 +56,7 @@ const Checkout = () => {
     await stripe.redirectToCheckout({
       sessionId: session.id,
     });
-  }
+  }*/
 
   return (
     <Box width="80%" m="100px auto">
@@ -69,7 +69,7 @@ const Checkout = () => {
         </Step>
       </Stepper>
       <Box>
-        <Formik
+        {/*<Formik
           onSubmit={handleFormSubmit}
           initialValues={initialValues}
           validationSchema={checkoutSchema[activeStep]}
@@ -140,7 +140,7 @@ const Checkout = () => {
               </Box>
             </form>
           )}
-        </Formik>
+                </Formik>*/}
       </Box>
     </Box>
   );

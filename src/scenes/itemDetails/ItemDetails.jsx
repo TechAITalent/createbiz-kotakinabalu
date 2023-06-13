@@ -10,7 +10,7 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../../theme";
 import { addToCart } from "../../state";
 import { useDispatch } from "react-redux";
-import data from "../../assets/itemData.json";
+import itemData from "../../assets/itemData";
 
 const ItemDetails = () => {
   const dispatch = useDispatch();
@@ -25,26 +25,27 @@ const ItemDetails = () => {
   };
 
   async function getItem() {
-    const item = await fetch(
-      //`http://localhost:1337/api/items/${itemId}?populate=image`,
-      data.image,
+    /*const item = await fetch(
+      `http://localhost:1337/api/items/${itemId}?populate=image`,
       {
         method: "GET",
       }
     );
-    const itemJson = await item.json();
-    setItem(itemJson.data);
+    const itemJson = await item.json();*/
+    const itemJson = await itemData[itemId];
+    setItem(itemJson);
   }
 
   async function getItems() {
-    const items = await fetch(
+    /*const items = await fetch(
       `http://localhost:1337/api/items?populate=image`,
       {
         method: "GET",
       }
     );
-    const itemsJson = await items.json();
-    setItems(itemsJson.data);
+    const itemsJson = await items.json();*/
+    const itemsJson = await itemData;
+    setItems(itemsJson);
   }
 
   useEffect(() => {
@@ -61,7 +62,8 @@ const ItemDetails = () => {
             alt={item?.name}
             width="100%"
             height="100%"
-            src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.url}`}
+            //src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.url}`}
+            src={item?.image}
             style={{ objectFit: "contain" }}
           />
         </Box>
@@ -74,10 +76,10 @@ const ItemDetails = () => {
           </Box>
 
           <Box m="65px 0 25px 0">
-            <Typography variant="h3">{item?.attributes?.name}</Typography>
-            <Typography>${item?.attributes?.price}</Typography>
+            <Typography variant="h3">{item?.name}</Typography>
+            <Typography>${item?.price}</Typography>
             <Typography sx={{ mt: "20px" }}>
-              {item?.attributes?.shortDescription}
+              {item?.shortDescription}
             </Typography>
           </Box>
 
@@ -115,7 +117,7 @@ const ItemDetails = () => {
               <FavoriteBorderOutlinedIcon />
               <Typography sx={{ ml: "5px" }}>ADD TO WISHLIST</Typography>
             </Box>
-            <Typography>CATEGORIES: {item?.attributes?.category}</Typography>
+            <Typography>CATEGORIES: {item?.category}</Typography>
           </Box>
         </Box>
       </Box>
@@ -129,7 +131,7 @@ const ItemDetails = () => {
       </Box>
       <Box display="flex" flexWrap="wrap" gap="15px">
         {value === "description" && (
-          <div>{item?.attributes?.longDescription}</div>
+          <div>{item?.longDescription}</div>
         )}
         {value === "reviews" && <div>reviews</div>}
       </Box>

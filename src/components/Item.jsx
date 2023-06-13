@@ -6,7 +6,6 @@ import RemoveIcon from "@mui/icons-material/Remove";
 import { shades } from "../theme";
 import { addToCart } from "../state";
 import { useNavigate } from "react-router-dom";
-//import data from "../assets/itemData.json";
 
 const Item = ({ item, width }) => {
   const navigate = useNavigate();
@@ -16,16 +15,6 @@ const Item = ({ item, width }) => {
   const {
     palette: { neutral },
   } = useTheme();
-
-  /*item.attributes = {
-    id: data.id,
-    name: data.name,
-    category: data.category,
-    price: data.price,
-    image: data.image,
-  }*/
-  console.log("hello world");
-  //const { category, price, name, image } = item.attributes;
 
   return (
     <Box width={width}>

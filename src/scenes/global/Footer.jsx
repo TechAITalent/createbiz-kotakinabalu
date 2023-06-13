@@ -4,6 +4,7 @@ import { shades } from "../../theme";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import CreateBizLogo from "../../assets/createBiz-Logo.png";
+import itemData from "../../assets/itemData.json";
 
 function Footer() {
   const navigate = useNavigate();
@@ -11,6 +12,7 @@ function Footer() {
   const {
     palette: { neutral },
   } = useTheme();
+
   return (
     <Box marginTop="70px" padding="40px 0" backgroundColor={neutral.light}>
       <Box
@@ -28,7 +30,7 @@ function Footer() {
             sx={{ "&:hover": { cursor: "pointer" } }}
             color={shades.secondary[500]}
           >
-            <img src={CreateBizLogo} alt="CreateBiz Logo" width="25%" />
+            {<img src={CreateBizLogo} alt="CreateBiz Logo" width="25%" />}
           </Box>
           <div>
             {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

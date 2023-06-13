@@ -1,11 +1,74 @@
 [
     {
         "id": 1,
+        "name": "Valentines day e-card",
+        "shortDescription": "",
+        "longDescription": "",
+        "price": 9,
+        "category": "newArrivals",
+        "image": "static/media/item-images/valentines-day-e-card.png"
+    },
+    {
+        "id": 2,
         "name": "Cranberry Butter Cookies",
         "shortDescription": "buttery cranberry cookie that melts in your mouth <3",
-        "longDescription": null,
+        "longDescription": "",
         "price": 29,
         "category": "topRated",
-        "image": "null"
+        "image": "static/media/item-images/cranberry-butter-cookies.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Eureka Popcorn Bouquet",
+        "shortDescription": "图片只供参考/nKlang Valley 可 Lalamove , 运费自付/n邮寄运费RM 15-RM 20/nKlang Valley can use Lalamove to grab/nThe delivery fee paid by yourself",
+        "longDescription": "Random Flavor/nIn order to ensure the freshness of snacks. Snacks are matched according to the snacks of the day/nMaybe a little chromatic aberration in mobile phone shooting/nSnacks Bouquet/nGrab one for snack lovers around you!/nSnacks Favourite are for reference only/nHand-packaged, it is  difficult to measure the standard size/nAll placed orders will be shipped out within 3-5working days.",
+        "price": 100,
+        "category": "newArrivals",
+        "image": "static/media/item-images/eureka-popcorn-bouquet.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "EQ Kitten 500g",
+        "shortDescription": "Equilibrio Kitten 500g",
+        "longDescription": "Equilibrio Kitten/nComplete feed for kittens (0 to 12 months)/nFOS/MOS & Probiotics/nHelps the balance of intestinal flora/nYucca Schidigera/nContributes to the reduction in stool odor/nDHA/nContributes to the cognitive development/nGuaranteed Analysis/nCrude Protein (Min.) 35%, Crude Fat (Min.) 20%, Crude Fiber (Max.) 3.5%, Moisture (max.) 10%, Ash (Max.) 7%, Calcium (Max.) 1.2%, Phosphorus (Max.) 0.8%, DHA (Min.) 0.2%, Taurine (Min.) 0.2%, DL-methionine (Min.) 0.57%, Inulin (Min.) 0.55%, Mannan-oligosaccharides (Min.) 0.3%, Probiotic (Min.) 1% Metabolizable energy 4204 Kcal/kg./nAAFCO (Association of American Feed Control Officials) feeding trails confirm that Equilibrio is complete and balanced for cats./nBasic Composition/nDeboned chicken, Brewers rice, Fish meal, Poultry by product meal, Ground yellow corn**, Corn gluten meal**, Brewers dried yeast, Poultry Liver, Ground flaxseed, Poultry fat (preserved with natural mixed tocopherols and rosemary oil), Hydrolyzed deboned chicken, Fish oil, Beet pulp, Inulin, Dicalcium phosphate, Choline chloride, DL-methionine, Taurine, Salt, Mannan-oligosaccharides, Probiotic, Sodium bisulfate, Potassium chloride, Yucca schidigera extract, Sodium Hexametaphosphate, Vitamin premix, Mineral Premix Chelate/n**Agrobacterium Tumefaciens, Bacillus Thuringiensis, Streptomyces Viridochromgene, Zea Mays./nFeeding Instructions/nCat’s Weight                                  Daily Amount               /nFrom 0.2 until 1.6kg                       From 18 until 57g/day           /nFrom 1.6 until 3.7kg                       From 57 until 88g/day/n* One cup of tea contains 85g approximately*/n1.  These are the suggested amounts. The Portions can vary in accordance with the age, activity and temperament of your cat./n2. Keep available cool and clean water all the time./n3. Take your cat periodically to the veterinarian./n4. In case that your cat is not being fed with this food, we recommend that the substitution of the food be made gradually throughout 5 days./n*Complete food for adult cats./n*Forbidden use in ruminants feeding./n*Not For Human Consumption",
+        "price": 21,
+        "category": "bestSellers",
+        "image": "static/media/item-images/equilibrio-cat-food.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Handmade Clay Totoro ( Medium size )",
+        "shortDescription": "",
+        "longDescription": "",
+        "price": 60,
+        "category": "topRated",
+        "image": "static/media/item-images/Handmade-clay-totoro.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Elianto Organic Aloe Juice Moist Cream (70ML)",
+        "shortDescription": "Elianto Organic Aloe Juice Moist Cream offers your skin ultimate hydration from within. /n Enriched with Aloe Vera Leaf Juice, it can help replenish moisture, soothe and calm the skin. /n It is great for all skin type due to the lightweight, fast absorbing and hydrating texture. /n Direction: For best results, use twice a day, morning and night. Apply gently onto face, neck, and anywhere your skin needs moisture, in upward sweeping motions. /n Finishing: Light Watery",
+        "longDescription": "",
+        "price": 60,
+        "category": "topRated",
+        "image": "static/media/item-images/elianto-aloe-cream.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Xbox Wireless Controller",
+        "shortDescription": "【The ALL-NEW 2020 XBOX Wireless Controller (A.K.A XBOX ONE Series S/X Controller】/n Experience the modernized design of the Xbox Wireless Controller, featuring sculpted surfaces and refined geometry for enhanced comfort during gameplay. Stay on target with textured grip and a hybrid D-pad. Seamlessly capture and share content with a dedicated Share button. Quickly pair with, play on, and switch between devices including Xbox Series X|S, Xbox One, Windows 10 PC, and Android. iOS support coming in the future. * /n Dedicated share button : Seamlessly capture and share content such as screenshots, recordings, and more with the new Share button. /n Stay on target : Stay on target with the new hybrid D-pad, textured grip on the triggers, bumpers, and back-case. /n Switch devices : Easily pair and switch between devices including Xbox Series X, Xbox Series S, Xbox One, Windows 10 PC, and Android. iOS support coming in the future. /n Compatibility : Includes Xbox Wireless and Bluetooth® technology for wireless gaming on console, PC, mobile phones and tablets. Plug in any compatible headset with the 3.5mm stereo headset jack.* /n /n >> Tech Specs << /n 1) Connectivity : Connect to Xbox consoles with Xbox Wireless. Wirelessly connect to Windows 10 PCs, tablets, and Android using Bluetooth. iOS support coming in the future. Some functionality not supported. /n 2) Compatible With Xbox Series X, Xbox Series S, Xbox One, Windows 10, and Android. iOS support coming in the future. /n【Normal Xbox Wireless Controller】/nExperience the enhanced comfort and feel of the new Xbox Wireless Controller, featuring a sleek, streamlined design and textured grip. Enjoy custom button mapping and improved wireless range.* Plug in any compatible headset with the 3.5mm stereo headset jack. And with Bluetooth® technology, play your favorite games on Windows 10 PCs, laptops, and mobile devices. Experience the enhanced comfort and feel of the new Xbox Wireless Controller, featuring a sleek, streamlined design and textured grip. Enjoy custom button mapping and improved wireless range. Plug in any compatible headset with the 3.5mm stereo headset jack. And with Bluetooth® technology, play your favorite games on Windows 10 PCs, laptops, and mobile devices.* /n Experience the enhanced comfort and feel of the new Xbox Wireless Controller, featuring a streamlined design, textured grip, and Bluetooth technology for gaming on Windows 10 and Windows 11 devices. /n /n * Compatible with Xbox One X, Xbox One S, Xbox One & Windows 10. /n * Includes Bluetooth technology for gaming on Windows 10 Laptops and tablets. /n * Stay on target with textured grip. /n * Get up to twice the wireless range compared to previous Xbox One Controllers (tested using the Xbox One S Console) /n * Experience the enhanced comfort and feel of the new Xbox Wireless Controller.",
+        "longDescription": "",
+        "price": 599,
+        "category": "bestSellers",
+        "image": "static/media/item-images/Xbox-wireless-controller.png"
+    },
+    {
+        "id": 8,
+        "name": "Faber-Castell Colour to Life",
+        "shortDescription": "https://www.youtube.com/watch?v=xRCCr0U5pl4",
+        "longDescription": "Contents:\n1) 15 pages augmented animated colouring book\n2) 20 pcs Connector Pens",
+        "price": 54,
+        "category": "topRated",
+        "image": "static/media/item-images/faber-castell-color.jpg"
     }
 ]

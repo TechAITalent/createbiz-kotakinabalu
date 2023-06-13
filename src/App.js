@@ -7,7 +7,6 @@ import ItemDetails from "./scenes/itemDetails/ItemDetails";
 import CartMenu from "./scenes/global/CartMenu";
 import Checkout from "./scenes/checkout/Checkout";
 import Confirmation from "./scenes/checkout/Confirmation";
-import TermsConditions from "./scenes/footer/TermsConditions";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
