@@ -25,8 +25,8 @@ const Item = ({ item, width }) => {
       >
         <img
           alt={item.name}
-          width="300px"
-          height="400px"
+          width="240px"
+          height="320px"
           src={item.image}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}

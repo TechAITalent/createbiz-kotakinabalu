@@ -71,10 +71,10 @@ const ShoppingList = () => {
       <Box
         margin="0 auto"
         display="grid"
-        gridTemplateColumns="repeat(auto-fill, 280px)"
+        gridTemplateColumns="repeat(auto-fill, 300px)"
         justifyContent="space-around"
         rowGap="20px"
-        columnGap="1.25%"
+        columnGap="1.3%"
       >
         {value === "all" &&
           items.map((item) => (

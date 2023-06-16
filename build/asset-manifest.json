@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kotakinabalu/static/css/main.29e6995b.css",
-    "main.js": "/kotakinabalu/static/js/main.12172170.js",
+    "main.js": "/kotakinabalu/static/js/main.deec2c45.js",
     "static/media/carousel_photography-services.jpeg": "/kotakinabalu/static/media/carousel_photography-services.41c2c5a0ab192085c5f3.jpeg",
     "static/media/carousel_surface-sanitizer.jpeg": "/kotakinabalu/static/media/carousel_surface-sanitizer.552fa80e894915a4901b.jpeg",
     "static/media/carousel_unique-sneaker.jpeg": "/kotakinabalu/static/media/carousel_unique-sneaker.1c269c681ccf0230b9c7.jpeg",
     "static/media/createBiz-Logo.png": "/kotakinabalu/static/media/createBiz-Logo.0cac46a60b6af00cd386.png",
     "index.html": "/kotakinabalu/index.html",
     "main.29e6995b.css.map": "/kotakinabalu/static/css/main.29e6995b.css.map",
-    "main.12172170.js.map": "/kotakinabalu/static/js/main.12172170.js.map"
+    "main.deec2c45.js.map": "/kotakinabalu/static/js/main.deec2c45.js.map"
   },
   "entrypoints": [
     "static/css/main.29e6995b.css",
-    "static/js/main.12172170.js"
+    "static/js/main.deec2c45.js"
   ]
 }
